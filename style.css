@@ -18,9 +18,10 @@ body {
 }
 
 .content {
-	max-width: 720px;
+	max-width: 740px;
 	margin: 0 auto;
 	line-height: 1.2;
+	padding: 0 20px;
 }
 
 .content h1 {
@@ -87,7 +88,7 @@ a:hover {
 	margin: 0 auto;
 	border: 2px solid #424242;
 	border-radius: 8%;
-	opacity: .75;
+	opacity: .6;
 }
 
 .project-thumbnail:hover {
@@ -105,15 +106,35 @@ a:hover {
 
 /* CONTACT */
 #social-links {
-	width: 50%;
+	width: 248px;
+	display: block;
 	margin: 0 auto;
-	display: inline-block;
 }
 
-.social {
-	height: 70px;
+.social img {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
 	opacity: .75;
 }
+
+.social:hover {
+	-webkit-filter: blur(2px);
+}
+
+#contact h3 {
+	text-align: center;
+	margin: 2px;
+}
+
+#contact a {
+	color: #424242;
+}
+
+#email:hover {
+	color: #3299bb;
+}
+
 
 
 
