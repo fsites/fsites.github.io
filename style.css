@@ -2,6 +2,7 @@
 
 body {
 	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	font-family: 'Josefin Sans';
 	color: #424242;
@@ -40,8 +41,10 @@ a:hover {
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	height: 305px;
+	height: 320px;
 	background-image: url("images/blurred.png");
+	margin-top: 0;
+
 }
 
 
@@ -71,4 +74,49 @@ a:hover {
 }
 
 /* ABOUT */
+#about {
+	padding-top: 10px;
+	text-align: left;
+}
+
+/* PROJECTS */
+.project-thumbnail {
+	height: 180px;
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #424242;
+	border-radius: 8%;
+	opacity: .75;
+}
+
+.project-thumbnail:hover {
+	border: 2px solid #3299bb;
+	opacity: 1;
+}
+
+.project-title {
+	text-align: center;
+}
+
+#project-display p {
+	font-size: 1.1em;
+}
+
+/* CONTACT */
+#social-links {
+	width: 50%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.social {
+	height: 70px;
+	opacity: .75;
+}
+
+
+
+
+
 
