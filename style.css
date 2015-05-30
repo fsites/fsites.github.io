@@ -1,0 +1,143 @@
+/* BLUE: #3299BB, DARKGRAY #424242, LIGHTGRAY #BCBCBC */
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: 'Josefin Sans';
+	color: #424242;
+}
+
+/* GENERAL STYLING */
+#content-container {
+	z-index: 2;
+	position: relative;
+	top: 305px;
+	width: 100%;
+	background-color: white;
+}
+
+.content {
+	max-width: 740px;
+	margin: 0 auto;
+	line-height: 1.2;
+	padding: 0 20px;
+}
+
+.content h1 {
+	border-bottom: 2px solid #3299bb;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+/* MASTHEAD */
+
+#masthead {
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	height: 320px;
+	background-image: url("images/blurred.png");
+	margin-top: 0;
+
+}
+
+
+#title-container {
+	font-family: 'Josefin Slab';
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#masthead-name {
+	font-size: 5.5em;
+	margin: 0;
+}
+
+#masthead-title {
+	font-size: 1.8em;
+	margin: 0 0 12px 0;
+}
+
+#masthead img {
+	display: block;
+	border-radius: 50%;
+	border: 2px solid #3299bb;
+	width: 120px;
+	margin: 0 auto;
+}
+
+/* ABOUT */
+#about {
+	padding-top: 10px;
+	text-align: left;
+}
+
+/* PROJECTS */
+.project-thumbnail {
+	height: 180px;
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #424242;
+	border-radius: 8%;
+	opacity: .6;
+}
+
+.project-thumbnail:hover {
+	border: 2px solid #3299bb;
+	opacity: 1;
+}
+
+.project-title {
+	text-align: center;
+}
+
+#project-display p {
+	font-size: 1.1em;
+}
+
+/* CONTACT */
+#social-links {
+	width: 248px;
+	display: block;
+	margin: 0 auto;
+}
+
+.social img {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	opacity: .75;
+}
+
+.social:hover {
+	-webkit-filter: blur(2px);
+}
+
+#contact h3 {
+	text-align: center;
+	margin: 2px;
+}
+
+#contact a {
+	color: #424242;
+}
+
+#email:hover {
+	color: #3299bb;
+}
+
+
+
+
+
+
+
