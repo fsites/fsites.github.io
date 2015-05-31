@@ -9,7 +9,7 @@ body {
 }
 
 /* GENERAL STYLING */
-#content-container {
+.content-container {
 	z-index: 2;
 	position: relative;
 	top: 305px;
@@ -81,6 +81,11 @@ a:hover {
 }
 
 /* PROJECTS */
+.project-display {
+	width: 50%;
+	display: inline-block;
+}
+
 .project-thumbnail {
 	height: 180px;
 	width: 180px;
@@ -133,6 +138,11 @@ a:hover {
 
 #email:hover {
 	color: #3299bb;
+}
+
+/*for white space*/
+footer {
+	height: 100px;
 }
 
 
