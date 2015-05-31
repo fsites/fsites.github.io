@@ -82,7 +82,7 @@ a:hover {
 
 /* PROJECTS */
 .project-display {
-	width: 50%;
+	width: 49%;
 	display: inline-block;
 }
 
@@ -145,6 +145,12 @@ footer {
 	height: 100px;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 595px) {
+	.project-display {
+		width: 100%;
+	}
+}
 
 
 
