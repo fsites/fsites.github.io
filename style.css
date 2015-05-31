@@ -146,7 +146,7 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 595px) {
+@media (max-width: 612px) {
 	.project-display {
 		width: 100%;
 	}
