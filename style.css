@@ -87,6 +87,10 @@ a:hover {
 	display: inline-block;
 }
 
+#project-2 {
+	border-left: 1px solid #3299bb;
+}
+
 .project-thumbnail {
 	height: 180px;
 	width: 180px;
@@ -156,6 +160,9 @@ footer {
 @media (max-width: 612px) {
 	.project-display {
 		width: 100%;
+	}
+	#project-2 {
+		border-left: none;
 	}
 }
 
