@@ -15,6 +15,9 @@ body {
 	top: 305px;
 	width: 100%;
 	background-color: white;
+	-webkit-box-shadow: 0px -10px 50px rgba(100, 100, 100, .75);
+    -moz-box-shadow:    0px -10px 50px rgba(100, 100, 100, .75);
+    box-shadow:         0px -10px 50px rgba(100, 100, 100, .75);
 }
 
 .content {
@@ -49,7 +52,6 @@ a:hover {
 
 }
 
-
 #title-container {
 	font-family: 'Josefin Slab';
 	color: white;
@@ -72,7 +74,7 @@ a:hover {
 	border-radius: 50%;
 	border: 2px solid #3299bb;
 	width: 120px;
-	margin: 0 auto;
+	margin: 0 auto 10px auto;
 }
 
 /* ABOUT */
